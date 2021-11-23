@@ -9,7 +9,7 @@ class TweetModelTest extends TestCase
     public function it_can_save_a_tweet()
     {
         // Setup : on va vider la base de données 
-        $pdo = new PDO('mysql:host=localhost;dbname=live_test;charset=utf8', 'root', 'root', [
+        $pdo = new PDO('mysql:host=localhost;dbname=tdd_test;charset=utf8', 'taishi', 'tokyo2020', [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ]);
 
